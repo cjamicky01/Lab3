@@ -1222,146 +1222,145 @@ END GROUP
  .text.cfg_write_bytes32
                 0x00000814       0x80 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(cyfitter_cfg.o)
  .text.AnalogSetDefault
-                0x00000894       0x60 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(cyfitter_cfg.o)
+                0x00000894       0x64 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(cyfitter_cfg.o)
  .text.SetAnalogRoutingPumps
-                0x000008f4       0x40 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(cyfitter_cfg.o)
-                0x000008f4                SetAnalogRoutingPumps
+                0x000008f8       0x40 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(cyfitter_cfg.o)
+                0x000008f8                SetAnalogRoutingPumps
  .text.SW2_Switch_ClearInterrupt
-                0x00000934       0x30 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(SW2_Switch.o)
-                0x00000934                SW2_Switch_ClearInterrupt
+                0x00000938       0x30 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(SW2_Switch.o)
+                0x00000938                SW2_Switch_ClearInterrupt
  .text.Wakeup_ISR_Start
-                0x00000964       0x24 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Wakeup_ISR.o)
-                0x00000964                Wakeup_ISR_Start
+                0x00000968       0x24 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Wakeup_ISR.o)
+                0x00000968                Wakeup_ISR_Start
  .text.Wakeup_ISR_Interrupt
-                0x00000988        0x8 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Wakeup_ISR.o)
-                0x00000988                Wakeup_ISR_Interrupt
+                0x0000098c        0x8 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Wakeup_ISR.o)
+                0x0000098c                Wakeup_ISR_Interrupt
  .text.Wakeup_ISR_SetVector
-                0x00000990       0x18 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Wakeup_ISR.o)
-                0x00000990                Wakeup_ISR_SetVector
+                0x00000994       0x18 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Wakeup_ISR.o)
+                0x00000994                Wakeup_ISR_SetVector
  .text.Wakeup_ISR_SetPriority
-                0x000009a8       0x50 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Wakeup_ISR.o)
-                0x000009a8                Wakeup_ISR_SetPriority
+                0x000009ac       0x50 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Wakeup_ISR.o)
+                0x000009ac                Wakeup_ISR_SetPriority
  .text.Wakeup_ISR_Enable
-                0x000009f8       0x14 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Wakeup_ISR.o)
-                0x000009f8                Wakeup_ISR_Enable
+                0x000009fc       0x14 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Wakeup_ISR.o)
+                0x000009fc                Wakeup_ISR_Enable
  .text.Wakeup_ISR_Disable
-                0x00000a0c       0x14 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Wakeup_ISR.o)
-                0x00000a0c                Wakeup_ISR_Disable
+                0x00000a10       0x14 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Wakeup_ISR.o)
+                0x00000a10                Wakeup_ISR_Disable
  .text.Led_Advertising_Green_Write
-                0x00000a20       0x4c .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Led_Advertising_Green.o)
-                0x00000a20                Led_Advertising_Green_Write
+                0x00000a24       0x4c .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Led_Advertising_Green.o)
+                0x00000a24                Led_Advertising_Green_Write
  .text.Led_Advertising_Green_SetDriveMode
-                0x00000a6c       0x30 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Led_Advertising_Green.o)
-                0x00000a6c                Led_Advertising_Green_SetDriveMode
+                0x00000a70       0x30 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Led_Advertising_Green.o)
+                0x00000a70                Led_Advertising_Green_SetDriveMode
  .text.Led_Connected_Blue_Write
-                0x00000a9c       0x48 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Led_Connected_Blue.o)
-                0x00000a9c                Led_Connected_Blue_Write
+                0x00000aa0       0x48 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Led_Connected_Blue.o)
+                0x00000aa0                Led_Connected_Blue_Write
  .text.Led_Connected_Blue_SetDriveMode
-                0x00000ae4       0x30 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Led_Connected_Blue.o)
-                0x00000ae4                Led_Connected_Blue_SetDriveMode
+                0x00000ae8       0x30 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Led_Connected_Blue.o)
+                0x00000ae8                Led_Connected_Blue_SetDriveMode
  .text.CyBle_HrsInit
-                0x00000b14        0x8 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_hrs.o)
-                0x00000b14                CyBle_HrsInit
+                0x00000b18        0x8 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_hrs.o)
+                0x00000b18                CyBle_HrsInit
  .text.CyBle_HrsRegisterAttrCallback
-                0x00000b1c       0x18 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_hrs.o)
-                0x00000b1c                CyBle_HrsRegisterAttrCallback
+                0x00000b20       0x18 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_hrs.o)
+                0x00000b20                CyBle_HrsRegisterAttrCallback
  .text.CyBle_HrssGetCharacteristicValue
-                0x00000b34       0x9c .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_hrs.o)
-                0x00000b34                CyBle_HrssGetCharacteristicValue
+                0x00000b38       0x9c .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_hrs.o)
+                0x00000b38                CyBle_HrssGetCharacteristicValue
  .text.CyBle_HrssSendNotification
-                0x00000bd0       0xd8 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_hrs.o)
-                0x00000bd0                CyBle_HrssSendNotification
+                0x00000bd4       0xd8 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_hrs.o)
+                0x00000bd4                CyBle_HrssSendNotification
  .text.CyBle_HrssWriteEventHandler
-                0x00000ca8      0x118 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_hrs.o)
-                0x00000ca8                CyBle_HrssWriteEventHandler
+                0x00000cac      0x118 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_hrs.o)
+                0x00000cac                CyBle_HrssWriteEventHandler
  .text.CyBle_Init
-                0x00000dc0       0x2c .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
-                0x00000dc0                CyBle_Init
+                0x00000dc4       0x2c .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
+                0x00000dc4                CyBle_Init
  .text.CyBle_ServiceInit
-                0x00000dec       0x10 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
-                0x00000dec                CyBle_ServiceInit
+                0x00000df0       0x10 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
+                0x00000df0                CyBle_ServiceInit
  .text.CyBle_Start
-                0x00000dfc       0x90 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
-                0x00000dfc                CyBle_Start
+                0x00000e00       0x90 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
+                0x00000e00                CyBle_Start
  .text.CyBle_Stop
-                0x00000e8c       0x1c .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
-                0x00000e8c                CyBle_Stop
+                0x00000e90       0x1c .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
+                0x00000e90                CyBle_Stop
  .text.CyBle_GappStartAdvertisement
-                0x00000ea8       0xc4 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
-                0x00000ea8                CyBle_GappStartAdvertisement
+                0x00000eac       0xc4 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
+                0x00000eac                CyBle_GappStartAdvertisement
  .text.CyBle_ChangeAdDeviceAddress
-                0x00000f6c       0x60 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
-                0x00000f6c                CyBle_ChangeAdDeviceAddress
+                0x00000f70       0x60 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
+                0x00000f70                CyBle_ChangeAdDeviceAddress
  .text.CyBle_Get16ByPtr
-                0x00000fcc       0x24 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
-                0x00000fcc                CyBle_Get16ByPtr
+                0x00000fd0       0x24 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1.o)
+                0x00000fd0                CyBle_Get16ByPtr
  .text.CyBle_GattsWriteEventHandler
-                0x00000ff0       0xa0 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_gatt.o)
-                0x00000ff0                CyBle_GattsWriteEventHandler
+                0x00000ff4       0xa0 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_gatt.o)
+                0x00000ff4                CyBle_GattsWriteEventHandler
  .text.CyBle_WriteReqHandler
-                0x00001090       0x98 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
+                0x00001094       0x98 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
  .text.CyBle_ValueConfirmation
-                0x00001128       0x10 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
+                0x0000112c       0x10 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
  .text.CyBle_GattDisconnectEventHandler
-                0x00001138       0x18 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
+                0x0000113c       0x18 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
  .text.CyBle_TimeOutEventHandler
-                0x00001150       0x10 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
+                0x00001154       0x10 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
  .text.CyBle_GattConnectReqHandler
-                0x00001160        0x8 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
+                0x00001164        0x8 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
  .text.CyBle_IsDeviceAddressValid
-                0x00001168       0x60 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
+                0x0000116c       0x60 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
  .text.CyBle_L2Cap_ConnParamUpdateRspEventHandler
-                0x000011c8       0x14 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
+                0x000011cc       0x14 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
  .text.CyBle_GapConnUpdateCompleteEventHandler
-                0x000011dc       0x10 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
+                0x000011e0       0x10 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
  .text.CyBle_EventHandler
-                0x000011ec      0x2bc .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
-                0x000011ec                CyBle_EventHandler
+                0x000011f0      0x2bc .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_eventHandler.o)
+                0x000011f0                CyBle_EventHandler
  .text.CyBle_DisInit
-                0x000014a8        0x8 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_dis.o)
-                0x000014a8                CyBle_DisInit
+                0x000014ac        0x8 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(BLE_1_dis.o)
+                0x000014ac                CyBle_DisInit
  .text.Opamp_Init
-                0x000014b0       0x34 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Opamp.o)
-                0x000014b0                Opamp_Init
+                0x000014b4       0x34 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Opamp.o)
+                0x000014b4                Opamp_Init
  .text.Opamp_Enable
-                0x000014e4       0x24 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Opamp.o)
-                0x000014e4                Opamp_Enable
+                0x000014e8       0x24 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Opamp.o)
+                0x000014e8                Opamp_Enable
  .text.Opamp_Start
-                0x00001508       0x24 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Opamp.o)
-                0x00001508                Opamp_Start
+                0x0000150c       0x24 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(Opamp.o)
+                0x0000150c                Opamp_Start
  .text.ADC_Start
-                0x0000152c       0x24 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
-                0x0000152c                ADC_Start
+                0x00001530       0x24 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
+                0x00001530                ADC_Start
  .text.ADC_Init
-                0x00001550      0x1c4 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
-                0x00001550                ADC_Init
+                0x00001554      0x1c4 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
+                0x00001554                ADC_Init
  .text.ADC_Enable
-                0x00001714       0x38 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
-                0x00001714                ADC_Enable
+                0x00001718       0x38 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
+                0x00001718                ADC_Enable
  .text.ADC_Stop
-                0x0000174c       0x18 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
-                0x0000174c                ADC_Stop
+                0x00001750       0x18 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
+                0x00001750                ADC_Stop
  .text.ADC_StartConvert
-                0x00001764       0x14 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
-                0x00001764                ADC_StartConvert
+                0x00001768       0x14 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
+                0x00001768                ADC_StartConvert
  .text.ADC_StopConvert
-                0x00001778        0x8 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
-                0x00001778                ADC_StopConvert
+                0x0000177c        0x8 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
+                0x0000177c                ADC_StopConvert
  .text.ADC_IsEndConversion
-                0x00001780       0x48 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
-                0x00001780                ADC_IsEndConversion
+                0x00001784       0x48 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
+                0x00001784                ADC_IsEndConversion
  .text.ADC_GetResult16
-                0x000017c8       0x44 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
-                0x000017c8                ADC_GetResult16
+                0x000017cc       0x44 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC.o)
+                0x000017cc                ADC_GetResult16
  .text.ADC_Sleep
-                0x0000180c       0x84 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC_PM.o)
-                0x0000180c                ADC_Sleep
+                0x00001810       0x84 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC_PM.o)
+                0x00001810                ADC_Sleep
  .text.ADC_Wakeup
-                0x00001890       0x58 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC_PM.o)
-                0x00001890                ADC_Wakeup
- .text.ADC_ISR  0x000018e8       0x1c .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC_INT.o)
-                0x000018e8                ADC_ISR
- *fill*         0x00001904        0x4 
+                0x00001894       0x58 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC_PM.o)
+                0x00001894                ADC_Wakeup
+ .text.ADC_ISR  0x000018ec       0x1c .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(ADC_INT.o)
+                0x000018ec                ADC_ISR
  .text          0x00001908       0x20 .\CortexM0\ARM_GCC_484\Debug\BLE Lab 3.a(CyBootAsmGnu.o)
                 0x00001908                CyDelayCycles
                 0x0000191a                CyEnterCriticalSection
