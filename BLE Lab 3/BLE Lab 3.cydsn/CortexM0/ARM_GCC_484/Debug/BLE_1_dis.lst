@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
   14:.\Generated_Source\PSoC4/BLE_1_dis.c **** 
   15:.\Generated_Source\PSoC4/BLE_1_dis.c **** 
   16:.\Generated_Source\PSoC4/BLE_1_dis.c **** #include "BLE_1_eventHandler.h"
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 2
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 2
 
 
   17:.\Generated_Source\PSoC4/BLE_1_dis.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
   63:.\Generated_Source\PSoC4/BLE_1_dis.c **** 
   64:.\Generated_Source\PSoC4/BLE_1_dis.c **** #ifdef CYBLE_DIS_CLIENT
   65:.\Generated_Source\PSoC4/BLE_1_dis.c **** 
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 3
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 3
 
 
   66:.\Generated_Source\PSoC4/BLE_1_dis.c ****     (void)memset(&cyBle_disc, 0, sizeof(cyBle_disc));
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
   70              		.cfi_offset 14, -4
   71 0002 82B0     		sub	sp, sp, #8
   72              		.cfi_def_cfa_offset 16
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 4
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 4
 
 
   73 0004 00AF     		add	r7, sp, #0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  135:.\Generated_Source\PSoC4/BLE_1_dis.c **** CYBLE_API_RESULT_T CyBle_DissSetCharacteristicValue(CYBLE_DIS_CHAR_INDEX_T charIndex, uint8 attrSiz
  136:.\Generated_Source\PSoC4/BLE_1_dis.c **** {
   92              		.loc 1 136 0
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 5
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 5
 
 
   93              		.cfi_startproc
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  148:.\Generated_Source\PSoC4/BLE_1_dis.c ****         locHandleValuePair.value.len = attrSize;
  136              		.loc 1 148 0
  137 0040 BB1D     		add	r3, r7, #6
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 6
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 6
 
 
  138 0042 1B78     		ldrb	r3, [r3]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  182              		.size	CyBle_DissSetCharacteristicValue, .-CyBle_DissSetCharacteristicValue
  183              		.section	.text.CyBle_DissGetCharacteristicValue,"ax",%progbits
  184              		.align	2
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 7
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 7
 
 
  185              		.global	CyBle_DissGetCharacteristicValue
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  184:.\Generated_Source\PSoC4/BLE_1_dis.c ****     CYBLE_GATT_HANDLE_VALUE_PAIR_T locHandleValuePair;
  185:.\Generated_Source\PSoC4/BLE_1_dis.c **** 
  186:.\Generated_Source\PSoC4/BLE_1_dis.c ****     if(charIndex >= CYBLE_DIS_CHAR_COUNT)
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 8
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 8
 
 
  213              		.loc 1 186 0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  255              		.loc 1 196 0
  256 0064 002B     		cmp	r3, #0
  257 0066 03D0     		beq	.L11
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 9
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 9
 
 
  198:.\Generated_Source\PSoC4/BLE_1_dis.c ****         {
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  306 0028 D0020000 		.4byte	.LASF0
  307 002c 02       		.uleb128 0x2
  308 002d 01       		.byte	0x1
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 10
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 10
 
 
  309 002e 08       		.byte	0x8
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  363 0094 08       		.byte	0x8
  364 0095 04       		.byte	0x4
  365 0096 71040000 		.4byte	.LASF13
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 11
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 11
 
 
  366 009a 02       		.uleb128 0x2
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  420 0100 07       		.uleb128 0x7
  421 0101 DF070000 		.4byte	.LASF29
  422 0105 27       		.sleb128 39
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 12
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 12
 
 
  423 0106 07       		.uleb128 0x7
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  477 017f 07       		.uleb128 0x7
  478 0180 B20E0000 		.4byte	.LASF48
  479 0184 CD00     		.sleb128 77
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 13
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 13
 
 
  480 0186 07       		.uleb128 0x7
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  534 0204 07       		.uleb128 0x7
  535 0205 70050000 		.4byte	.LASF67
  536 0209 FA00     		.sleb128 122
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 14
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 14
 
 
  537 020b 07       		.uleb128 0x7
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  591 0277 07       		.uleb128 0x7
  592 0278 52060000 		.4byte	.LASF84
  593 027c 0E       		.sleb128 14
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 15
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 15
 
 
  594 027d 07       		.uleb128 0x7
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  648 02f2 0A       		.uleb128 0xa
  649 02f3 04       		.byte	0x4
  650 02f4 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 16
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 16
 
 
  651 02f8 06       		.uleb128 0x6
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  705 0361 96040000 		.4byte	.LASF118
  706 0365 10       		.sleb128 16
  707 0366 07       		.uleb128 0x7
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 17
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 17
 
 
  708 0367 C9090000 		.4byte	.LASF119
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  762 03e1 04       		.byte	0x4
  763 03e2 0D       		.uleb128 0xd
  764 03e3 4A030000 		.4byte	.LASF131
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 18
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 18
 
 
  765 03e7 04       		.byte	0x4
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  819 0457 15120000 		.4byte	.LASF137
  820 045b 00       		.sleb128 0
  821 045c 07       		.uleb128 0x7
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 19
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 19
 
 
  822 045d 4C0E0000 		.4byte	.LASF138
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  876 04c9 A1000000 		.4byte	0xa1
  877 04cd 08       		.byte	0x8
  878 04ce 00       		.byte	0
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 20
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 20
 
 
  879 04cf 04       		.uleb128 0x4
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  933 053b 00000000 		.4byte	.LFB4
  934 053f 84000000 		.4byte	.LFE4-.LFB4
  935 0543 01       		.uleb128 0x1
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 21
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 21
 
 
  936 0544 9C       		.byte	0x9c
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  990 05aa 80100000 		.4byte	.LASF156
  991 05ae 01       		.byte	0x1
  992 05af B5       		.byte	0xb5
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 22
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 22
 
 
  993 05b0 93040000 		.4byte	0x493
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1047 0004 0E       		.uleb128 0xe
  1048 0005 13       		.uleb128 0x13
  1049 0006 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 23
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 23
 
 
  1050 0007 03       		.uleb128 0x3
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1104 003d 06       		.uleb128 0x6
  1105 003e 04       		.uleb128 0x4
  1106 003f 01       		.byte	0x1
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 24
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 24
 
 
  1107 0040 0B       		.uleb128 0xb
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1161 0076 0B       		.uleb128 0xb
  1162 0077 13       		.uleb128 0x13
  1163 0078 01       		.byte	0x1
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 25
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 25
 
 
  1164 0079 0B       		.uleb128 0xb
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1218 00af 00       		.byte	0
  1219 00b0 00       		.byte	0
  1220 00b1 10       		.uleb128 0x10
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 26
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 26
 
 
  1221 00b2 13       		.uleb128 0x13
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1275 00e8 3B       		.uleb128 0x3b
  1276 00e9 0B       		.uleb128 0xb
  1277 00ea 27       		.uleb128 0x27
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 27
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 27
 
 
  1278 00eb 19       		.uleb128 0x19
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1332 0123 3F       		.uleb128 0x3f
  1333 0124 19       		.uleb128 0x19
  1334 0125 03       		.uleb128 0x3
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 28
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 28
 
 
  1335 0126 0E       		.uleb128 0xe
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1389 015d 26       		.uleb128 0x26
  1390 015e 00       		.byte	0
  1391 015f 49       		.uleb128 0x49
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 29
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 29
 
 
  1392 0160 13       		.uleb128 0x13
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1434 003f 75696E74 		.ascii	"uint16\000"
  1434      313600
  1435              	.LASF44:
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 30
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 30
 
 
  1436 0046 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_RSP\000"
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1454      455F4556 
  1454      545F4741 
  1454      5454435F 
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 31
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 31
 
 
  1454      52454144 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1474 0263 4359424C 		.ascii	"CYBLE_ERROR_SEC_FAILED\000"
  1474      455F4552 
  1474      524F525F 
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 32
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 32
 
 
  1474      5345435F 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1494      545F4741 
  1494      505F4155 
  1494      54485F52 
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 33
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 33
 
 
  1495              	.LASF154:
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1515              	.LASF52:
  1516 0452 4359424C 		.ascii	"CYBLE_EVT_GATTC_EXEC_WRITE_RSP\000"
  1516      455F4556 
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 34
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 34
 
 
  1516      545F4741 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1536      434F4E4E 
  1537              	.LASF104:
  1538 054e 4359424C 		.ascii	"CYBLE_GATT_ERR_READ_NOT_PERMITTED\000"
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 35
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 35
 
 
  1538      455F4741 
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1558 0652 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_ALREADY_REGISTERED\000"
  1558      455F4552 
  1558      524F525F 
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 36
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 36
 
 
  1558      4C324341 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1576      53545F49 
  1576      4E56414C 
  1577              	.LASF42:
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 37
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 37
 
 
  1578 078c 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_INFO_RSP\000"
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1595      505F5041 
  1595      53534B45 
  1596              	.LASF148:
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 38
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 38
 
 
  1597 08a7 73657276 		.ascii	"serviceHandle\000"
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1616      455F4556 
  1616      545F4741 
  1616      5454435F 
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 39
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 39
 
 
  1616      52454144 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1636      5454435F 
  1636      48414E44 
  1637              	.LASF98:
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 40
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 40
 
 
  1638 0abb 4359424C 		.ascii	"CYBLE_ERROR_IND_DISABLED\000"
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1655              	.LASF139:
  1656 0bfa 4359424C 		.ascii	"CYBLE_DIS_SERIAL_NUMBER\000"
  1656      455F4449 
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 41
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 41
 
 
  1656      535F5345 
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1674      5F49535F 
  1675              	.LASF149:
  1676 0d09 63686172 		.ascii	"charHandle\000"
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 42
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 42
 
 
  1676      48616E64 
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1696 0e11 4359424C 		.ascii	"CYBLE_GATT_ERR_HEART_RATE_CONTROL_POINT_NOT_SUPPORT"
  1696      455F4741 
  1696      54545F45 
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 43
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 43
 
 
  1696      52525F48 
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1717 0f32 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_CONNECTION_ENTITY_NOT_FOUND\000"
  1717      455F4552 
  1717      524F525F 
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 44
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 44
 
 
  1717      4C324341 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1735      5454535F 
  1735      58434E48 
  1736              	.LASF156:
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 45
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 45
 
 
  1737 1080 63686172 		.ascii	"charIndex\000"
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 1
  1755      505F4B45 
  1755      59494E46 
  1756              	.LASF160:
-ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccj80f0Q.s 			page 46
+ARM GAS  C:\Users\Connor\AppData\Local\Temp\ccF4Tjtu.s 			page 46
 
 
  1757 11a6 6C6F6348 		.ascii	"locHandleValuePair\000"

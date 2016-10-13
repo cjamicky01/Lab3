@@ -57,7 +57,7 @@ CYBLE_STATE_T cyBle_state;
 
 /* Manufacturer Name String */
 (uint8)'C', (uint8)'y', (uint8)'p', (uint8)'r', (uint8)'e', (uint8)'s', (uint8)'s', (uint8)' ', (uint8)'S', (uint8)'e',
-(uint8)'m', (uint8)'i', (uint8)'c', (uint8)'o', (uint8)'n', (uint8)'d', (uint8)'u', (uint8)'c', (uint8)'t', (uint8)'i',
+(uint8)'m', (uint8)'i', (uint8)'c', (uint8)'o', (uint8)'n', (uint8)'d', (uint8)'u', (uint8)'c', (uint8)'t', (uint8)'o',
 (uint8)'r', 
 
 /* Model Number String */
