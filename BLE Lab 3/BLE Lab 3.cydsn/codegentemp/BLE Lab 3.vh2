@@ -2,7 +2,7 @@
 --	Conversion of BLE Lab 3.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Wed Oct 12 20:19:13 2016
+--	Tue Oct 18 01:32:06 2016
 --
 
 USE cypress.cypress.all;
@@ -169,6 +169,19 @@ TERMINAL \ADC:mux_bus_minus_12\ : bit;
 TERMINAL \ADC:mux_bus_minus_13\ : bit;
 TERMINAL \ADC:mux_bus_minus_14\ : bit;
 TERMINAL \ADC:mux_bus_minus_15\ : bit;
+SIGNAL \PWM_1:Net_81\ : bit;
+SIGNAL \PWM_1:Net_75\ : bit;
+SIGNAL \PWM_1:Net_69\ : bit;
+SIGNAL \PWM_1:Net_66\ : bit;
+SIGNAL \PWM_1:Net_82\ : bit;
+SIGNAL \PWM_1:Net_72\ : bit;
+SIGNAL Net_1862 : bit;
+SIGNAL Net_1861 : bit;
+SIGNAL Net_1863 : bit;
+SIGNAL Net_1864 : bit;
+SIGNAL Net_1865 : bit;
+SIGNAL Net_1860 : bit;
+SIGNAL Net_1650 : bit;
 BEGIN
 
 zero <=  ('0') ;
@@ -908,5 +921,29 @@ Led_Connected_Blue:cy_psoc3_pins_v1_10
 		dig_domain_out=>open);
 \ADC:cy_analog_noconnect_5\:cy_analog_noconnect_v1_0
 	PORT MAP(noconnect=>\ADC:Net_3227\);
+\PWM_1:cy_m0s8_tcpwm_1\:cy_m0s8_tcpwm_v1_0
+	GENERIC MAP(cy_registers=>"")
+	PORT MAP(clock=>Net_1650,
+		capture=>zero,
+		count=>tmpOE__Heart_Rate_input_net_0,
+		reload=>zero,
+		stop=>zero,
+		start=>zero,
+		underflow=>Net_1862,
+		overflow=>Net_1861,
+		compare_match=>Net_1863,
+		line_out=>Net_1864,
+		line_out_compl=>Net_1865,
+		interrupt=>Net_1860);
+Clock_1:cy_clock_v1_0
+	GENERIC MAP(cy_registers=>"",
+		id=>"3bd718ef-716b-4b8c-961b-f630a7d976cf",
+		source_clock_id=>"",
+		divisor=>0,
+		period=>"83333333.3333333",
+		is_direct=>'0',
+		is_digital=>'0')
+	PORT MAP(clock_out=>Net_1650,
+		dig_domain_out=>open);
 
 END R_T_L;

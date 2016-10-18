@@ -1,5 +1,5 @@
 -- Project:   BLE Lab 3
--- Generated: 10/12/2016 20:19:13
+-- Generated: 10/18/2016 01:32:06
 -- PSoC Creator  3.1 SP3
 
 ENTITY \BLE Lab 3\ IS
@@ -40,6 +40,14 @@ ARCHITECTURE __DEFAULT__ OF \BLE Lab 3\ IS
     SIGNAL Net_1047 : bit;
     SIGNAL Net_1300 : bit;
     SIGNAL Net_1301 : bit;
+    SIGNAL Net_1650_ff7 : bit;
+    ATTRIBUTE global_signal OF Net_1650_ff7 : SIGNAL IS true;
+    SIGNAL Net_1860 : bit;
+    SIGNAL Net_1861 : bit;
+    SIGNAL Net_1862 : bit;
+    SIGNAL Net_1863 : bit;
+    SIGNAL Net_1864 : bit;
+    SIGNAL Net_1865 : bit;
     SIGNAL SW2_Switch(0)__PA : bit;
     SIGNAL \ADC:Net_1845_ff6\ : bit;
     ATTRIBUTE global_signal OF \ADC:Net_1845_ff6\ : SIGNAL IS true;
@@ -192,6 +200,21 @@ ARCHITECTURE __DEFAULT__ OF \BLE Lab 3\ IS
             gen_clk_out_6 : OUT std_ulogic;
             gen_clk_out_7 : OUT std_ulogic);
     END COMPONENT;
+    COMPONENT m0s8tcpwmcell
+        PORT (
+            clock : IN std_ulogic;
+            capture : IN std_ulogic;
+            count : IN std_ulogic;
+            reload : IN std_ulogic;
+            stop : IN std_ulogic;
+            start : IN std_ulogic;
+            tr_underflow : OUT std_ulogic;
+            tr_overflow : OUT std_ulogic;
+            tr_compare_match : OUT std_ulogic;
+            line_out : OUT std_ulogic;
+            line_out_compl : OUT std_ulogic;
+            interrupt : OUT std_ulogic);
+    END COMPONENT;
     COMPONENT p4abufcell
         PORT (
             ctb_dsi_comp : OUT std_ulogic;
@@ -342,6 +365,7 @@ BEGIN
             ext => ClockBlock_EXTCLK,
             imo => ClockBlock_IMO,
             hfclk => ClockBlock_HFCLK,
+            ff_div_7 => Net_1650_ff7,
             ff_div_6 => \ADC:Net_1845_ff6\);
 
     ClockGenBlock:m0s8clockgenblockcell;
@@ -772,5 +796,22 @@ BEGIN
             needs_dsab => 1)
         PORT MAP(
             ctb_dsi_comp => \Opamp:Net_12\);
+
+    \PWM_1:cy_m0s8_tcpwm_1\:m0s8tcpwmcell
+        GENERIC MAP(
+            cy_registers => "")
+        PORT MAP(
+            clock => Net_1650_ff7,
+            capture => '0',
+            count => '1',
+            reload => '0',
+            stop => '0',
+            start => '0',
+            tr_underflow => Net_1862,
+            tr_overflow => Net_1861,
+            tr_compare_match => Net_1863,
+            line_out => Net_1864,
+            line_out_compl => Net_1865,
+            interrupt => Net_1860);
 
 END __DEFAULT__;
